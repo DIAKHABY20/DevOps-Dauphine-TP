@@ -2,7 +2,7 @@ steps:
 
 - name: 'gcr.io/cloud-builders/docker'
 
-  args: ['build', '-t', 'us-central1-docker.pkg.dev/braided-visitor-399707/website-tools/website-image', '.']
+  args: ['build', '-t', 'us-central1-docker.pkg.dev/braided-visitor-399707/demo-repository/website-image', '.']
 
  
 
@@ -10,6 +10,6 @@ steps:
 
 images:
 
-- 'us-central1-docker.pkg.dev/braided-visitor-399707/website-tools/website-image'
+- 'us-central1-docker.pkg.dev/braided-visitor-399707/demo-repository/website-image'
 
  
